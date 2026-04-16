@@ -15,3 +15,4 @@ server.use(express.static("public"))
 server.use(router)
 
 server.listen(Port, () => console.log("A szerver a követező porton fut: " + Port))
+as
